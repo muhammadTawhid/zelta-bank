@@ -1,0 +1,21 @@
+.nav-img{
+    width: 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(102, 101, 101);
+    font-weight: 700;
+}
+.text-highlight{
+    color: lightseagreen;
+}
+.header-img{
+    border-radius: 20px;
+    opacity: 1;
+}
+.login-form{
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
