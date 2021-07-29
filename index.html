@@ -64,34 +64,34 @@
                     <div class="col-md-4">
                         <div class="deposit">
                             <h5>Deposit</h5>
-                            <h2>$00</h2>
+                            <h2>$ <span id="currentDeposit">00</span></h2>
                         </div>
                     </div>
                     <div class="col-md-4 mt-2">
                         <div class="withdraw">
                             <h5>Withdraw</h5>
-                            <h2>$00</h2>
+                            <h2>$ <span id="currentWithdraw">00</span></h2>
                         </div>
                     </div>
                     <div class="col-md-4 mt-2">
                         <div class="balance">
                             <h5>Balance</h5>
-                            <h2>$00</h2>
+                            <h2>$ <span id="currentBalance">1240</span></h2>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3 ">
+                <div class="row ">
                     <div class="col-md-6 login-form">
                         <h3>Deposit</h3>
-                        <input class="form-control" type="text">
+                        <input id="depositInput" class="form-control" type="text" placeholder="$ put your deposit amount">
                         <br>
-                        <button class="btn btn-success">Deposit</button>
+                        <button id="depositBtn" class="btn btn-success">Deposit</button>
                     </div>
                     <div class="col-md-6 login-form">
                         <h3>Withdraw</h3>
-                        <input class="form-control" type="text">
+                        <input id="withdrawAmount" class="form-control" type="text" placeholder="$ put your withdraw amount">
                         <br>
-                        <button class="btn btn-success">Withdraw</button>
+                        <button id="withdrawBtn" class="btn btn-success">Withdraw</button>
                     </div>
                 </div>
             </div>
